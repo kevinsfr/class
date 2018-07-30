@@ -1,0 +1,71 @@
+{
+	  "intents": [
+		{
+	  	"intent": "CheckingIntent"
+		},
+		{
+	  	"intent": "ChokingIntent"
+		},
+		{
+	  	"intent": "CPRIntent"
+		},
+		{
+	  	"intent": "AEDIntent"
+		},
+		{
+	  	"intent": "BleedingIntent"
+		},
+		{
+	  	"intent": "BurnsIntent"
+		},
+		{
+	  	"intent": "PoisoningIntent"
+		},
+        {
+	  	"intent": "NeckIntent"
+		},
+        {
+	  	"intent": "SpinalIntent"
+		},
+        {
+	  	"intent": "StrokeIntent"
+		},
+        {
+	  	"intent": "HelpIntent"
+		},
+        {
+	  	"intent": "ConsciousIntent"
+		},
+        {
+	  	"intent": "UnconsciousIntent"
+		},
+        {
+        "intent": "DoneIntent"
+        },
+        {
+        "intent": "ReadyIntent"
+        },
+        {
+        "intent": "StopIntent"
+        },
+        {
+        "intent": "ccHelpIntent"
+        },
+        {
+        "intent": "rbHelpIntent"
+        },
+        {
+        "intent": "ccRestartIntent"
+        },
+        {
+        "intent": "rbRestartIntent"
+        },
+        {
+        "intent": "AMAZON.YesIntent"
+        },
+        {
+        "intent": "AMAZON.NoIntent"
+        }
+	  ]
+	}
+

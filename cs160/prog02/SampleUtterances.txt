@@ -1,0 +1,32 @@
+CheckingIntent I need help with checking an injured adult
+CheckingIntent Someone is injured
+ChokingIntent I need help with choking
+ChokingIntent Someone is choking
+CPRIntent I need help with CPR
+AEDIntent I need help with AED
+BleedingIntent I need help with controlling bleeding
+BleedingIntent How do I controll bleeding
+BurnsIntent I need help with burns
+BurnsIntent How do I deal with burns
+PoisoningIntent I need help with poisoning
+PoisoningIntent How do I deal with poisoning
+NeckIntent I need help with neck injuries
+NeckIntent How do I deal with neck injuries
+SpinalIntent I need help with spinal injuries
+SpinalIntent How do I deal with spinal injuries
+StrokeIntent I need help with stroke
+StrokeIntent How do I deal with stroke
+HelpIntent What can I say
+ConsciousIntent Conscious
+UnconsciousIntent Unconscious
+ReadyIntent Ready
+DoneIntent Done
+StopIntent Stop CPR
+StopIntent Quit CPR
+ccHelpIntent How do I do chest compressions
+rbHelpIntent How do I do rescue breaths
+rbHelpIntent How do I do breaths
+ccRestartIntent Restart
+ccRestartIntent Restart chest compressions
+rbRestartIntent Restart rescue breaths
+rbRestartIntent Restart breaths

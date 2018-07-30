@@ -1,0 +1,19 @@
+QuitIntent quit app
+QuitIntent exit app
+QuitIntent quit to main menu
+QuitIntent exit to main menu
+QuitIntent main menu
+HelpIntent what can I say
+SearchIntent find {Dish}
+SearchIntent I would like to make {Dish}
+IngredientIntent ingredients
+IngredientIntent what are the ingredients
+NextIngredient next ingredient
+LastIngredient last ingredient
+NextStep next step
+LastStep last step
+RestartIntent start again
+RestartIntent restart
+DirectionIntent read recipe
+DirectionIntent read directions
+DirectionIntent start

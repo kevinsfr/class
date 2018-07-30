@@ -1,0 +1,40 @@
+{
+  "intents": [
+    {
+      "intent": "QuitIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "intent": "SearchIntent",
+      "slots": [
+        {
+          "name": "Dish",
+          "type": "AMAZON.Food"
+        }
+      ]
+    },
+    {
+      "intent": "IngredientIntent"
+    },
+    {
+      "intent": "NextIngredient"
+    },
+    {
+      "intent": "LastIngredient"
+    },
+    {
+      "intent": "NextStep"
+    },
+    {
+      "intent": "LastStep"
+    },
+    {
+      "intent": "RestartIntent"
+    },
+    {
+      "intent": "DirectionIntent"
+    }
+  ]
+}

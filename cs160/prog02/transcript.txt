@@ -1,0 +1,740 @@
+1. I need help with burns.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": false,
+      "stop": false,
+      "cycle": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.df94eb58-0cb6-4929-95a9-d650e7fd6cfa",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:18:36Z",
+    "intent": {
+      "name": "BurnsIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Call 911."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Call 911.",
+      "title": "SessionSpeechlet - BurnsIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": false,
+    "stop": false,
+    "cycle": 1
+  }
+}
+
+2. Someone is injured.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": false,
+      "stop": false,
+      "cycle": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.07552f45-5469-4f4f-a3f4-cf2e7d29e6f4",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:21:13Z",
+    "intent": {
+      "name": "CheckingIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Call 911."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Call 911.",
+      "title": "SessionSpeechlet - CheckingIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": false,
+    "stop": false,
+    "cycle": 1
+  }
+}
+
+
+3. How do I deal with stroke?
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": false,
+      "stop": false,
+      "cycle": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.a6a865e0-7b9f-47c0-b9e6-af5af62ff651",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:22:07Z",
+    "intent": {
+      "name": "StrokeIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Call 911."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Call 911.",
+      "title": "SessionSpeechlet - StrokeIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": false,
+    "stop": false,
+    "cycle": 1
+  }
+}
+
+
+4. I need help with CPR.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": false,
+      "stop": false,
+      "cycle": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.627ced7a-d193-4f72-b61d-1ceb0ea5dcb0",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:29:27Z",
+    "intent": {
+      "name": "CPRIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Lay the person on a firm, flat surface. You will give 30 chest compressions. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minute. When you are ready to begin, say ready. When you are done with 30 compressions, say done."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Lay the person on a firm, flat surface. You will give 30 chest compressions. Push hard, push fast in the middle of the chest at least 2 inches deep and at least 100 compressions per minute. When you are ready to begin, say ready. When you are done with 30 compressions, say done.",
+      "title": "SessionSpeechlet - CPRIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 2,
+    "cpr": true,
+    "stop": false,
+    "cycle": 1
+  }
+}
+
+
+5. Ready.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 2,
+      "cpr": true,
+      "stop": false,
+      "cycle": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.8aae3af3-607d-4d32-b8a4-be3001b628b8",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:30:07Z",
+    "intent": {
+      "name": "ReadyIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Start counting."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Start counting.",
+      "title": "SessionSpeechlet - ReadyIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 2,
+    "cpr": true,
+    "stop": false,
+    "cycle": 1
+  }
+}
+
+
+6. Done.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 2,
+      "cpr": true,
+      "stop": false,
+      "cycle": 1
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.3c187a74-a73d-4675-86d8-e23ae41548b3",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:30:59Z",
+    "intent": {
+      "name": "DoneIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "You will give 2 rescue breaths. Tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other. When you are done with rescue breaths, say done."
+    },
+    "card": {
+      "content": "SessionSpeechlet - You will give 2 rescue breaths. Tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other. When you are done with rescue breaths, say done.",
+      "title": "SessionSpeechlet - DoneIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": true,
+    "stop": false,
+    "cycle": 2
+  }
+}
+
+
+7. How do I do breaths?
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": true,
+      "stop": false,
+      "cycle": 2
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.aa612b75-b670-460b-82fb-f62a6b5fb24f",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:31:31Z",
+    "intent": {
+      "name": "rbHelpIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Tilt the head back and lift the chin up. Pinch the nose shut then make a complete seal over the person’s mouth. Blow in for about 1 second to make the chest clearly rise. Give rescue breaths, one after the other.",
+      "title": "SessionSpeechlet - rbHelpIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": true,
+    "stop": false,
+    "cycle": 2
+  }
+}
+
+
+8. What can I say?
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": true,
+      "stop": false,
+      "cycle": 2
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.bbb2375b-a341-4d6f-bd07-bba0193087e7",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:32:17Z",
+    "intent": {
+      "name": "HelpIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "You can ask about chest compression and rescue breath."
+    },
+    "card": {
+      "content": "SessionSpeechlet - You can ask about chest compression and rescue breath.",
+      "title": "SessionSpeechlet - HelpIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": true,
+    "stop": false,
+    "cycle": 2
+  }
+}
+
+9. Restart breaths.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": true,
+      "stop": false,
+      "cycle": 2
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.0dc59d85-be63-46b7-bdb9-6f52026356fe",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:33:19Z",
+    "intent": {
+      "name": "rbRestartIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Restart rescue breaths. When you are done, say done."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Restart rescue breaths. When you are done, say done.",
+      "title": "SessionSpeechlet - rbRestartIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": true,
+    "stop": false,
+    "cycle": 2
+  }
+}
+
+
+10. Done.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 1,
+      "cpr": true,
+      "stop": false,
+      "cycle": 2
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.e13e0e58-e3a3-453f-895f-b82ba9e80810",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:34:04Z",
+    "intent": {
+      "name": "DoneIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Lay the person on a firm, flat surface. You will give 30 chest compressions. When you are ready to begin, say ready. When you are done with 30 compressions, say done."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Lay the person on a firm, flat surface. You will give 30 chest compressions. When you are ready to begin, say ready. When you are done with 30 compressions, say done.",
+      "title": "SessionSpeechlet - DoneIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 2,
+    "cpr": true,
+    "stop": false,
+    "cycle": 2
+  }
+}
+
+
+11. Stop CPR.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 2,
+      "cpr": true,
+      "stop": false,
+      "cycle": 2
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.7aa06594-c5e6-4dbd-b3f2-399ee717367c",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:34:46Z",
+    "intent": {
+      "name": "StopIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Are you sure you want to stop?"
+    },
+    "card": {
+      "content": "SessionSpeechlet - Are you sure you want to stop?",
+      "title": "SessionSpeechlet - StopIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 2,
+    "cpr": true,
+    "stop": true,
+    "cycle": 2
+  }
+}
+
+
+12. Yes.
+Request:
+{
+  "session": {
+    "sessionId": "SessionId.31f65e1e-4f24-4e7c-8eee-20f3ad4a98a8",
+    "application": {
+      "applicationId": "amzn1.ask.skill.80236db0-3b97-432d-beef-a1d371ba7b49"
+    },
+    "attributes": {
+      "phase": 2,
+      "cpr": true,
+      "stop": true,
+      "cycle": 2
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AEJLPL3G5CW4Z542JDRGKV535K2JQ66CPU74O547P4ABL3LEZ3AIZS6QZP72KIS3S3RIOZ73BFBNSQIL65G7VQ6RFXOANER2ZEBOV6TRQ7MRNYOQZWMUQANMF37MTZ5LKY637MZQ6M7B5QZX5URX5444AGYFJZ3OVSRYVTKOGBJEB6AO2C5SVDAY25Q2OWZSVZDAF3RFE5H5K7Y"
+    },
+    "new": false
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "EdwRequestId.8b6d5c98-f06d-4a51-9e67-9f2fff55f994",
+    "locale": "en-US",
+    "timestamp": "2017-03-02T22:35:15Z",
+    "intent": {
+      "name": "AMAZON.YesIntent",
+      "slots": {}
+    }
+  },
+  "version": "1.0"
+}
+
+Response:
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "type": "PlainText",
+      "text": "Stop CPR."
+    },
+    "card": {
+      "content": "SessionSpeechlet - Stop CPR.",
+      "title": "SessionSpeechlet - AMAZON.YesIntent",
+      "type": "Simple"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "type": "PlainText",
+        "text": ""
+      }
+    },
+    "shouldEndSession": false
+  },
+  "sessionAttributes": {
+    "phase": 1,
+    "cpr": false,
+    "stop": false,
+    "cycle": 1
+  }
+}
