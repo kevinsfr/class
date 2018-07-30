@@ -1,0 +1,9 @@
+(a) I use Wireshark and follow the instructions in the spec. Then I click on the packet on line 12 with HTTP protocol. There is line-based text data which reveals the secret.
+
+(b) The cipher suite the server selects is TLS_RSA_WITH_AES_256_GCM_SHA384.
+The algorithms used are:
+1. RSA key exchange algorithm. This is for confidentiality.
+2. AES256 encryption algorithm in GCM mode. This is for confidentiality.
+3. MAC that uses SHA384. This is for integrity.
+
+(c) Use Diffie-Hellman for key exchange instead of RSA.
