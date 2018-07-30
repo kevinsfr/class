@@ -1,0 +1,16 @@
+======= Problem 1 =======
+a.32
+b.2^59
+c.
+
+======= Problem 2 =======
+a.N/4+1
+b.24
+
+======= Problem 3 =======
+Access times decreases(Choose one.)
+Explanation: less branch instruction check leading to less memory access
+
+======= Problem 4 =======
+a.2^13
+b.2
